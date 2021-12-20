@@ -1,0 +1,291 @@
+*{
+
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/***********************************************/
+/*Apartado del menú*/
+
+.menu{
+    background-color: #d90200;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/********************************************/
+.container_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+}
+
+/*Párrafo del Logo*/
+
+.logo{
+
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 174%;
+    letter-spacing: 2px;
+}
+
+/*Contenedor de las Listas*/
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    /*background: #fff;*/
+    width: 40%;
+    margin-right: 20px;
+}
+
+/*Listado de apartados*/
+
+li{
+    /*color: white; */
+    /* background: brown; */
+    /* text-align: center; */
+    display: flex;
+    /* border-radius: 10px; */
+    width: 32%;
+    /* margin-inline: 26px; */
+    /* justify-content: center; */
+    padding: -29px;
+    /* letter-spacing: 3px; */
+    /* font-weight: bold; */
+    /* background-color: black; */
+    /* cursor: pointer;*/
+}
+
+li a:hover{
+
+    background-color: #fff;
+    color: #1b1b1b;
+    transition: .3s;
+}
+
+li a{
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    /* height: 25%; */
+    /* width: 28%; */
+    margin-inline: 47px;
+    justify-content: center;
+    /* padding: 10px; */
+    letter-spacing: 3px;
+    padding: 18px;
+    font-weight: bold;
+    background: rgb(27, 27, 27);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/************************************/
+/*Container de la Imagen del Logo*/
+.container_img{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    width: 80;
+}
+
+/*Logo del Menú*/
+.img_logo{
+
+    width: 85%;
+    height: 90%;
+    display: flex;
+}
+
+/**********************************/
+/*Cuerpo de la Página*/
+
+.fondo{
+    background: #e1e1df;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.perfil{
+    width: 25%;
+    height: 72%;
+    display: grid;
+    margin-top: 7%;
+    margin-left: 1%;
+    background: #202124;
+    align-items: center;
+    /* border-radius: 50px; */
+    justify-content: center;
+}
+
+.autor{
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    font-size: 19px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nombre{
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.img_perfil{
+    width: 102%;
+    height: 79%;
+}
+/**********************************/
+
+.contenido{
+    position: absolute;
+    /* z-index: 2; */
+    width: 69%;
+    /* height: 72%; */
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+    margin-top: 7%;
+}
+
+.p_contenido{
+    color: #202124;
+    font-size: 174%;
+    letter-spacing: 2px;
+    font-weight: 900;
+    height: 114%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* padding: 21px;*/
+}
+
+.p_contenido_dos{
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    height: 80%;
+    width: 64%;
+    color: #1b1b1b;
+    justify-self: center;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.p_aplicaciones{
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    height: 31%;
+    width: 64%;
+    color: #1b1b1b;
+    justify-self: center;
+    font-weight: 600;
+    margin-top: 3%;
+    font-size: x-large;
+    text-align: justify;
+
+}
+
+.img_softwares{
+  /*background: #1B1B1B;*/
+    /* z-index: 4; */
+    width: 51%;
+    height: 85px;
+    display: flex;
+    justify-self: center;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+
+.information{
+    display: inline-grid;
+    width: 65%;
+    height: 100%;
+    justify-self: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.informacion_apli{
+    /*background: #1b1b1b;*/
+    display: flex;
+    width: 193%;
+    /* height: 85px; */
+    /* justify-self: center; */
+    justify-content: space-evenly;
+    margin-left: 15%;
+    /* align-content: baseline;*/
+}
+
+.informacion_apli p{
+    display: flex;
+    color: #1b1b1b;
+    font-size: unset;
+    font-weight: 800;
+    height: 100%;
+}
+
+
+.informacion_anios{
+    /*background: #1b1b1b;*/
+    display: flex;
+    width: 170%;
+    height: 100%;
+    /* justify-self: center; */
+    justify-content: space-evenly;
+    /* align-content: center; */
+    margin-left: 31%;
+}
+
+.informacion_anios p{
+    display: flex;
+    color: #1b1b1b;
+    font-size: unset;
+    font-weight: 800;
+    height: 100%;
+}
+
+/**********************************/
+/*Footer de la Página*/
+.container_footer{
+    background-color:white;
+    width: 100%;
+    height:5%;
+}
+
+.fotter_pag{
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fotter_pag p{
+    color: #fff;
+    font-size: medium;
+    font-stretch: semi-expanded;
+}
